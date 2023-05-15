@@ -1,0 +1,14 @@
+body {
+  background-image: url("");
+  background-size: cover;
+  animation: reproducir-gif 3s infinite;
+}
+
+@keyframes reproducir-gif {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
