@@ -1,5 +1,5 @@
 const formSendedPopUp = (status = false) => {
-  if (respuesta !== false) {
+  if (status !== false) {
     Swal.fire({
       title: "Formulario enviado!",
       text: "",
