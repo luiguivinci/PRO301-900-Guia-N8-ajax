@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault;
 
     const respuesta = sendFormAjax();
+
     if (respuesta !== false) {
       Swal.fire({
         title: "Formulario enviado!",

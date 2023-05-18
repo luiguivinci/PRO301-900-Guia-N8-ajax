@@ -1,1 +1,1 @@
-window.location.href = "views/index.php";
+window.location.href = "views/index.html";
